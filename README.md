@@ -1,10 +1,10 @@
-Microsoft Teams Direct Routing Lab using AnyNode SBC and Telnyx SIP Trunk
+# Microsoft Teams Direct Routing Lab using AnyNode SBC and Telnyx SIP Trunk
 
-Project Overview:
+# Project Overview:
 This project demonstrates the deployment and troubleshooting of a complete Microsoft Teams Direct Routing environment using AnyNode SBC and a Telnyx SIP Trunk provider.
 The goal of this project was to build a functional end-to-end voice environment capable of routing calls between Microsoft Teams users and PSTN networks while solving real-world interoperability challenges.
 
-Architecture:
+# Architecture:
 Microsoft Teams Users
 ↓
 Microsoft Teams Direct Routing
@@ -15,104 +15,107 @@ Telnyx SIP Trunk
 ↓
 PSTN
 
-Technologies Used:
--Microsoft Teams Direct Routing
--AnyNode SBC
--SIP over TLS
--SRTP Media Encryption
--Telnyx SIP Trunk
--DNS / FQDN Configuration
--Public Certificates (Let's Encrypt)
--Wireshark Packet Analysis
--NAT Traversal
--SIP Header Manipulation
--Microsoft Teams Voice Routing Policies
+# Technologies Used:
+- [x] Microsoft Teams Direct Routing
+- [x] AnyNode SBC
+- [x] SIP over TLS
+- [x] SRTP Media Encryption
+- [x] Telnyx SIP Trunk
+- [x] DNS / FQDN Configuration
+- [x] Public Certificates (Let's Encrypt)
+- [x] Wireshark Packet Analysis
+- [x] NAT Traversal
+- [x] SIP Header Manipulation
+- [x] Microsoft Teams Voice Routing Policies
 
-Project Objectives:
--Deploy an SBC for Microsoft Teams Direct Routing
--Configure secure SIP trunk connectivity using TLS
--Enable PSTN calling through Telnyx
--Implement certificate-based authentication
--Troubleshoot SIP interoperability issues
--Validate secure media negotiation between platforms
+# Project Objectives:
+- [x] Deploy an SBC for Microsoft Teams Direct Routing
+- [x] Configure secure SIP trunk connectivity using TLS
+- [x] Enable PSTN calling through Telnyx
+- [x] Implement certificate-based authentication
+- [x] Troubleshoot SIP interoperability issues
+- [x] Validate secure media negotiation between platforms
 
-Challenges Encountered:
--TLS Certificate Validation Issues
+# Challenges Encountered:
+- [x] TLS Certificate Validation Issues
 
-Observed:
+# Observation 1
 
--TLS handshake failures
-"Unknown CA" alerts
--SIP trunk status failures
-
-Actions Taken:
-
--Implemented Let's Encrypt certificates
--Imported trusted certificate chains
--Configured certificate trust relationships
--Verified TLS handshakes using Wireshark
--SIP Authentication Problems
-
-Observed:
-
--407 Proxy Authentication Required
--Failed outbound call attempts
+- [x] TLS handshake failures
+- [x] "Unknown CA" alerts
+- [x] SIP trunk status failures
 
 Actions Taken:
 
--Adjusted SIP authentication methods
--Modified routing behavior
--Corrected SBC identity mapping
--Media Negotiation Failures
+- [x] Implemented Let's Encrypt certificates
+- [x] Imported trusted certificate chains
+- [x] Configured certificate trust relationships
+- [x] Verified TLS handshakes using Wireshark
+- [x] SIP Authentication Problems
 
-Observed:
+# Observation 2 
 
--488 Not Acceptable Here
--Failed media establishment
+- [x] 407 Proxy Authentication Required
+- [x] Failed outbound call attempts
 
 Actions Taken:
 
--Investigated SDP negotiation
--Reviewed codec compatibility
--Validated SRTP configuration
--Analyzed media capabilities between Teams and Telnyx
+- [x] Adjusted SIP authentication methods
+- [x] Modified routing behavior
+- [x] Corrected SBC identity mapping
+- [x] Media Negotiation Failures
 
-Troubleshooting Tools Used:
+# Observation 3
+
+- [x] 488 Not Acceptable Here
+- [x] Failed media establishment
+
+Actions Taken:
+
+- [x] Investigated SDP negotiation
+- [x] Reviewed codec compatibility
+- [x] Validated SRTP configuration
+- [x] Analyzed media capabilities between Teams and Telnyx
+
+# Troubleshooting Tools Used:
+
 -Microsoft Teams
-Call Analytics
-SIP Flow Analysis
-Direct Routing Diagnostics
+- [x] Call Analytics
+- [x] SIP Flow Analysis
+- [x] Direct Routing Diagnostics
+
 -AnyNode
-Call History
-SIP Routing Configuration
-Network Security Profiles
-Wireshark
+- [x] Call History
+- [x] SIP Routing Configuration
+- [x] Network Security Profiles
 
-Used to analyze:
+- Wireshark Used to analyze:
+- [x] TLS Handshakes
+- [x] SIP Signaling
+- [x] TCP Connectivity
+- [x] Certificate Exchange
+- [x] Media Negotiation
 
--TLS Handshakes
--SIP Signaling
--TCP Connectivity
--Certificate Exchange
--Media Negotiation
+# Skills Demonstrated:
+- [x] Microsoft Teams Voice Engineering
+- [x] SBC Deployment and Configuration
+- [x] SIP Troubleshooting
+- [x] TLS / Certificates
+- [x] Packet Capture Analysis
+- [x] PSTN Integration
+- [x] Carrier Interoperability
+- [x] NAT Traversal
+- [x] VoIP Protocol Analysis
+- [x] Current Status
 
-Skills Demonstrated:
--Microsoft Teams Voice Engineering
--SBC Deployment and Configuration
--SIP Troubleshooting
--TLS / Certificates
--Packet Capture Analysis
--PSTN Integration
--Carrier Interoperability
--NAT Traversal
--VoIP Protocol Analysis
--Current Status
+# Project currently operational with:
+- [x] Successful Teams → SBC signaling
+- [x] Functional TLS connectivity
+- [x] Telnyx SIP Trunk integration established
+- [x] Ongoing media interoperability tuning
 
-Project currently operational with:
-Successful Teams → SBC signaling
-Functional TLS connectivity
-Telnyx SIP Trunk integration established
-Ongoing media interoperability tuning
-
-Lessons Learned:
+# Lessons Learned:
 This project provided practical experience in real-world voice engineering challenges where networking, security, SBC behavior, carrier requirements, and Microsoft Teams interoperability intersect.
+
+# Documentation and Vlidation results
+[Proposal Microsoft Teams Direct Routiung infrastructure.pdf](Proposal%Microsoft%Teams%Direct%Routiung%infrastructure.pdf)
