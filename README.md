@@ -118,4 +118,4 @@ Actions Taken:
 This project provided practical experience in real-world voice engineering challenges where networking, security, SBC behavior, carrier requirements, and Microsoft Teams interoperability intersect.
 
 # Documentation and Vlidation results
-[Proposal Microsoft Teams Direct Routiung infrastrucre.pdf](Proposal%Microsoft%Teams%Direct%Routiung%infrastrucre.pdf)
+You can find it listed in the same Repository where Readme file is located.
